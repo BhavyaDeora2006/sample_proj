@@ -15,5 +15,16 @@ button{
     padding: 2rem 3rem;
     background-color: blueviolet;
     color: white;
+    animation: bounce 2s ease-in infinite;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+@keyframes bounce{
+    from{
+        transform: translateY(200px)
+    }
+    50%{transform: translateY(-200px)}
+    to{transform: translateY(200px);}
 }
 
